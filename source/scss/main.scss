@@ -1,12 +1,4 @@
 @import "./components/mixins";
 @import "./components/variables";
+@import "./components/nav";
 
-.nav__logo--links p {
-    font-family: 'Raleway', sans-serif;
-    font-size: $large;
-    font-weight: 800;
-}
-
-.nav__logo--links ul li a {
-    @include nav_text;
-}
